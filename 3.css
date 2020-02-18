@@ -8,7 +8,9 @@ background-attachment:fixed;
 h1{
 color:maroon;
 margin-left:40px;}
-p{
-color:orange;
-}
+p.normal{
+font-style:italic;color:red;direction:rtl;letter-spacing:5px;word-spacing:5px;text-indent:1cm;text-align:center;text-decoration:line-through;text-transform:uppercase;text-shadow:6px 6px 10px yellow;}
 
+p.special{font-size:40px;text-shadow:6px 6px 10px red;}
+p{font-weight:bolder;}
+img:hover{border:1px solid red;height:100px;opacity:0.4;}
