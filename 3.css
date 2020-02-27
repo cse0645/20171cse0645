@@ -13,4 +13,17 @@ font-style:italic;color:red;direction:rtl;letter-spacing:5px;word-spacing:5px;te
 
 p.special{font-size:40px;text-shadow:6px 6px 10px red;}
 p{font-weight:bolder;}
-img:hover{border:1px solid red;height:100px;opacity:0.4;}
+img:hover{border:1px groove red;height:100px;opacity:0.4;}
+
+#id1{color:green;}
+p.one{border-top-style:solid;border-right-style:dotted;border-left-style:double;border-bottom-style:dashed;border-width:5px;border-color:red;}
+
+
+
+p.two{border-style:dashed;border-width:medium;border-color:yellow;}
+
+
+p.three{border-style:double;border-width:6px 10px 4px 20px;border-color:blue;margin:25px 50px 75px 100px;}
+div{width:300px;margin:auto;}
+
+
