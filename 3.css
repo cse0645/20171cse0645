@@ -26,4 +26,26 @@ p.two{border-style:dashed;border-width:medium;border-color:yellow;}
 p.three{border-style:double;border-width:6px 10px 4px 20px;border-color:blue;margin:25px 50px 75px 100px;}
 div{width:300px;margin:auto;}
 
+p::first-line{color:#ff0000;}
+
+::selection{color:red;background:black;}
+
+
+div{width:100px;height:100px;background:red;transition:width 2s,height 2s,transform 2s;}
+div:hover{width:300px;height:300px;transform:scale(2,3);border-radius:20px;}
+
+ div.s1{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
+@keyframes example{0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}}
 
